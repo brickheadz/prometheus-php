@@ -25,12 +25,12 @@ class Registry
 		$this->metrics = [];
 	}
 
-	public function getMetric($metric) : ?Metric
+	public function getMetric($metric): ?Metric
 	{
 		return $this->metrics[$metric] ?? null;
 	}
 
-	public function getMetrics() : array
+	public function getMetrics(): array
 	{
 		return $this->metrics;
 	}
