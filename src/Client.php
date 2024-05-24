@@ -103,4 +103,3 @@ class Client
 		return $body;
 	}
 }
-
