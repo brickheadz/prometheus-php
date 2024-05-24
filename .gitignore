@@ -1,2 +1,10 @@
 metrics.proto
-vendor
+/vendor/
+/.idea/
+.vscode
+.remote-sync.json
+.env
+test.php
+.ac-php-conf.json
+*~
+
