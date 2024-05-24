@@ -3,6 +3,8 @@
 	"description": "Prometheus metrics client for PHP 8.1 or newer",
 	"version": "v1.0.0",
 	"license": "MIT",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
 	"authors": [
 		{
 			"name": "Bryan Peterson",
