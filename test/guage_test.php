@@ -13,7 +13,7 @@ $guage = $client->newGauge(
 		'help'      => 'Testing the PHPClients guage',
 	]
 );
-
+ 
 $job_id = uniqid();
 while (true) {
 	$guage->set(['key1' => 'val1'], rand(1, 50));
